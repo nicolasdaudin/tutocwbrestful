@@ -5,6 +5,10 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+// Database stuff
+var mongo = require('mongoskin');
+var db = mongo.db("mongodb://ec2-54-183-136-164.us-west-1.compute.amazonaws.com:27017/tutocwbrestful",{native_parser:true});
+
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -20,6 +24,12 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Make our db accessible to our router
+app.use(function(req,res,next){
+    req.db = db;
+    next();
+})
 
 app.use('/', routes);
 app.use('/users', users);
