@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"array",
+				"arrayPosition"
+			],
+			[
 				"user",
 				"username"
 			],
@@ -39,7 +43,7 @@
 			"file": "routes/users.js",
 			"settings":
 			{
-				"buffer_size": 288,
+				"buffer_size": 905,
 				"line_ending": "Unix"
 			}
 		},
@@ -47,7 +51,7 @@
 			"file": "public/javascripts/global.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 5635,
 				"line_ending": "Windows"
 			}
 		},
@@ -63,7 +67,7 @@
 			"file": "views/index.jade",
 			"settings":
 			{
-				"buffer_size": 236,
+				"buffer_size": 1042,
 				"line_ending": "Unix"
 			}
 		},
@@ -116,9 +120,9 @@
 	},
 	"file_history":
 	[
+		"/C/smd/dev/tutocwbrestful/routes/index.js",
 		"/C/smd/dev/tutocwbuecheler/routes/users.js",
 		"/C/smd/dev/tutocwbuecheler/routes/index.js",
-		"/C/smd/dev/tutocwbrestful/routes/index.js",
 		"/C/smd/dev/tutocwbuecheler/app.js",
 		"/C/smd/dev/tutocwbrestful/package.json"
 	],
@@ -156,7 +160,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -192,15 +196,15 @@
 					"file": "routes/users.js",
 					"settings":
 					{
-						"buffer_size": 288,
+						"buffer_size": 905,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								249,
-								249
+								594,
+								594
 							]
 						],
 						"settings":
@@ -218,15 +222,15 @@
 					"file": "public/javascripts/global.js",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 5635,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5631,
+								5631
 							]
 						],
 						"settings":
@@ -234,7 +238,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1886.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -270,15 +274,15 @@
 					"file": "views/index.jade",
 					"settings":
 					{
-						"buffer_size": 236,
+						"buffer_size": 1042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								236,
-								236
+								1015,
+								1015
 							]
 						],
 						"settings":
@@ -287,7 +291,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 220.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
